@@ -43,4 +43,5 @@ Additionally, the project uses Python 3.11.5 and the following packages:
 - [pandas](https://pandas.pydata.org/docs/index.html) == 1.5.3
 - [numpy](https://numpy.org/) == 1.23.5
 - [matplotlib](https://matplotlib.org/) == 3.6.2 (used only for experimentation)
+- [optuna](https://optuna.readthedocs.io/en/stable/) == 3.4.0 (used only for experimentation)
 - Also employes the built-in libraries [os](https://docs.python.org/3.10/library/os.html), [sys](https://docs.python.org/3/library/sys.html) and [typing](https://docs.python.org/3/library/typing.html)
