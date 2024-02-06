@@ -1,5 +1,7 @@
 # Phone-Locator
-A vision model to locate phones on a RGB image. The model locates the phones by computing the center of the phone's position on the image, on normalized coordinates. The train_phone_finder.py expects a folder containing training images and a labels.txt file with the labels of each image, on the format (file_name (x coordinate) (y coordinate)). The find_phone.py script expects a path to a single image as input and prints the predicted location on the terminal.
+A vision model to locate phones on a RGB image.
+
+The model locates the phones by computing the center of the phone's position on the image, on normalized coordinates. The train_phone_finder.py expects a folder containing training images and a labels.txt file with the labels of each image on the format (file_name (x coordinate) (y coordinate)). The find_phone.py script expects a path to a single image as input and prints the predicted location for this image on the terminal.
 
 ## Approaches
 
@@ -31,14 +33,14 @@ When collecting data from the customer, we can make the images pass through an A
 
 ## Dependencies
 
-The scripts employ several functions and classes to work. All the essential python code is stored in the modules folder. For transparency, the code employed on experimentation is saved in the experiments folder. However, some experiments where run on the cloud and then adapted to work using the scripts on the modules folder.
+The scripts employ several functions and classes to work. All the essential python code is stored in the modules folder. For transparency, the code employed on experimentation is saved in the experiments folder. However, some experiments were run on the cloud and then adapted to work using the scripts on the modules folder.
 
 Additionally, the project uses Python 3.11.5 and the following packages:
-- pytorch == 2.1.0
-- torchvision == 0.15.2
-- torchinfo == 1.8.0 (used only for experimentation)
-- opencv == 4.6.0
-- pandas == 1.5.3
-- numpy == 1.23.5
-- matplotlib == 3.6.2 (used only for experimentation)
-- Also employes the built-in libraries os, sys and typing
+- [pytorch](https://pytorch.org/) == 2.1.0
+- [torchvision](https://pytorch.org/vision/stable/index.html) == 0.15.2
+- [torchinfo](https://github.com/TylerYep/torchinfo) == 1.8.0 (used only for experimentation)
+- [opencv](https://opencv.org/) == 4.6.0
+- [pandas](https://pandas.pydata.org/docs/index.html) == 1.5.3
+- [numpy](https://numpy.org/) == 1.23.5
+- [matplotlib](https://matplotlib.org/) == 3.6.2 (used only for experimentation)
+- Also employes the built-in libraries [os](https://docs.python.org/3.10/library/os.html), [sys](https://docs.python.org/3/library/sys.html) and [typing](https://docs.python.org/3/library/typing.html)
