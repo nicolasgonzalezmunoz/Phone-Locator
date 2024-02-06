@@ -36,12 +36,12 @@ When collecting data from the customer, we can make the images pass through an A
 The scripts employ several functions and classes to work. All the essential python code is stored in the modules folder. For transparency, the code employed on experimentation is saved in the experiments folder. However, some experiments were run on the cloud and then adapted to work using the scripts on the modules folder.
 
 Additionally, the project uses Python 3.11.5 and the following packages:
-- [pytorch](https://pytorch.org/) == 2.1.0
-- [torchvision](https://pytorch.org/vision/stable/index.html) == 0.15.2
-- [torchinfo](https://github.com/TylerYep/torchinfo) == 1.8.0 (used only for experimentation)
-- [opencv](https://opencv.org/) == 4.6.0
-- [pandas](https://pandas.pydata.org/docs/index.html) == 1.5.3
-- [numpy](https://numpy.org/) == 1.23.5
-- [matplotlib](https://matplotlib.org/) == 3.6.2 (used only for experimentation)
-- [optuna](https://optuna.readthedocs.io/en/stable/) == 3.4.0 (used only for experimentation)
-- Also employes the built-in libraries [os](https://docs.python.org/3.10/library/os.html), [sys](https://docs.python.org/3/library/sys.html) and [typing](https://docs.python.org/3/library/typing.html)
+- <a href='https://pytorch.org/' target="_blank">pytorch</a> == 2.1.0
+- <a href="https://pytorch.org/vision/stable/index.html" target="_blank">torchvision</a> == 0.15.2
+- <a href="https://github.com/TylerYep/torchinfo" target="_blank">torchinfo</a> == 1.8.0 (used only for experimentation)
+- <a href="https://opencv.org/" target="_blank">opencv</a> == 4.6.0
+- <a href="https://pandas.pydata.org/docs/index.html" target="_blank">pandas</a> == 1.5.3
+- <a href="https://numpy.org/" target="_blank">numpy</a> == 1.23.5
+- <a href="https://matplotlib.org/" target="_blank">matplotlib</a> == 3.6.2 (used only for experimentation)
+- <a href="https://optuna.readthedocs.io/en/stable/" target="_blank">optuna</a> == 3.4.0 (used only for experimentation)
+- Also employes the built-in libraries <a href="https://docs.python.org/3.10/library/os.html" target="_blank">os</a>, <a href="https://docs.python.org/3/library/sys.html" target="_blank">sys</a> and <a href="https://docs.python.org/3/library/typing.html" target="_blank">typing</a>
