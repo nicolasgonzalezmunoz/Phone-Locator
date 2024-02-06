@@ -5,7 +5,7 @@ The model locates the phones by computing the center of the phone's position on 
 
 ## Approaches
 
-The initial approach taken was to build a highly customizable convolutional network, where its hyper-parameters where tuned using [Optuna](https://optuna.readthedocs.io/en/stable/). This initial approach didn't got the desired performance, and it was rapidly discarded.
+The initial approach taken was to build a highly customizable convolutional network, where its hyper-parameters where tuned using <a href="https://optuna.readthedocs.io/en/stable/" target="_blank">Optuna</a>. This initial approach didn't got the desired performance, and it was rapidly discarded.
 
 The second approach was to build another convolutional network with a ResNet-like architecture. This architecture, simpler and with less hyper-parameters to tune, was optimized, again, employing algorithms from Optuna. This approach produced a better performance than the first one, but still it was not satisfactory.
 
